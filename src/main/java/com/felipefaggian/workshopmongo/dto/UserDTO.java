@@ -1,6 +1,7 @@
 package com.felipefaggian.workshopmongo.dto;
 
 import java.io.Serializable;
+import java.util.Optional;
 
 import com.felipefaggian.workshopmongo.domain.User;
 
