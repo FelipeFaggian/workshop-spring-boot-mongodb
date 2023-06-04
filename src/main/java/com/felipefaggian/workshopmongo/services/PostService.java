@@ -26,7 +26,8 @@ public class PostService {
 		newPost.setTitle(post.get().getTitle());
 		newPost.setBody(post.get().getBody());
 		newPost.setAuthor(post.get().getAuthor());
-
+		newPost.setComments(post.get().getComments());
+		
 		if (post == null) {
 			throw new ObjectNotFoundException("Objeto não encontrado");
 		}
