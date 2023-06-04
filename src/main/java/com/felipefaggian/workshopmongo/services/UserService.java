@@ -35,6 +35,7 @@ public class UserService {
 		user1.setId(user.get().getId());
 		user1.setName(user.get().getName());
 		user1.setEmail(user.get().getEmail());
+		user1.setPosts(user.get().getPosts());
 		
 		  if(user == null) { 
 			  throw new ObjectNotFoundException("Objeto não encontrado"); }
